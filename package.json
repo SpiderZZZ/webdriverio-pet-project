@@ -1,22 +1,22 @@
 {
-  "name": "hb-wdio-project",
+  "name": "webdriverio-pet-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pet project on webdriverio after hb-2020",
   "main": "index.js",
   "scripts": {
     "test": "wdio ./entrypoint.conf.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heisenbug-2020-wdio-workshop/hb-wdio-project.git"
+    "url": "git+https://github.com/SpiderZZZ/webdriverio-pet-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heisenbug-2020-wdio-workshop/hb-wdio-project/issues"
+    "url": "https://github.com/SpiderZZZ/webdriverio-pet-project/issues"
   },
-  "homepage": "https://github.com/heisenbug-2020-wdio-workshop/hb-wdio-project#readme",
+  "homepage": "https://github.com/SpiderZZZ/webdriverio-pet-project/blob/main/README.md",
   "devDependencies": {
     "@types/mocha": "^8.0.3",
     "@wdio/cli": "^6.7.2",

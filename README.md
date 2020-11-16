@@ -1,7 +1,6 @@
-# hb-wdio-project
+# webdriver-pet-project
 
-Seed project for Heisenbug 2020 workshop.
-
+Pet project after Heisenbug 2020
 
 ### Installing
 
