@@ -2,6 +2,7 @@ describe('User',() => //describe - аналог сьюта
 {
     it('can register', () =>
     {
+        console.time("Test 'can register' took")
         browser.url('/create_account');     
         const registrationForm = $('#box-create-account');
         registrationForm.$('input[name="company"]').setValue('Название компании');
@@ -17,6 +18,8 @@ describe('User',() => //describe - аналог сьюта
     
         const expectedText = 'Your customer account has been created.'
         const alert = $('#notices .alert-success')
+        expect(alert).toBeDisplayed()
         expect(alert).toHaveTextContaining(expectedText)
+        console.timeEnd("Test 'can register' took")
     })
 })

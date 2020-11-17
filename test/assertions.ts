@@ -22,7 +22,8 @@ describe("Chai", function()
     it("should", function()
     {
         browser.url('/');
-        $("div").isDisplayed().should.to.be.contain("test");
+        $("div").isDisplayed().should.equal(true, 'error message')
+        $("div").isDisplayed().should.to.be.equal(true, 'error message')
     });
 
     it("expect", function()
