@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can register",
+      "uid" : "a7dcd6e7cbd1fe71",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1605604671466,
+        "stop" : 1605604684530,
+        "duration" : 13064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    } ],
+    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
+  } ],
+  "name" : "suites"
+}

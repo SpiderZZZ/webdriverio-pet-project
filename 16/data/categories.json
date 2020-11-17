@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`#notices .alert-success`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "children" : [ {
+        "name" : "can register",
+        "uid" : "a7dcd6e7cbd1fe71",
+        "parentUid" : "10686b1c1bbcfd7aefa9c0eb8d1d3cb5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605604671466,
+          "stop" : 1605604684530,
+          "duration" : 13064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-86.0.4240.75" ]
+      } ],
+      "uid" : "10686b1c1bbcfd7aefa9c0eb8d1d3cb5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
