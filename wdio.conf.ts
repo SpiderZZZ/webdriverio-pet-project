@@ -4,7 +4,7 @@ import { Config } from "@wdio/sync";
 export const config: Config = {
     runner: 'local',
     specs: [
-        './test/**/*.ts'
+        './test/mocha.ts'
     ],
     hostname: process.env.SELENIUM_HUB_HOST ?? 'localhost',
     path: '/wd/hub',
