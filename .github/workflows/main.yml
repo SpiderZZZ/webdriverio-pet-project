@@ -2,12 +2,12 @@ name: WDIO Tests
 
 
 on: [push, pull_request]
- on: 
-   push:
-     branches-ignore:
-     - '!master' # Push events to branches matching allure-report
-     paths-ignore:
-     - 'docs/**'
+# on: 
+#   push:
+#     branches-ignore:
+#     - '!master' # Push events to branches matching allure-report
+#     paths-ignore:
+#     - 'docs/**'
 
 jobs:
   tests:
