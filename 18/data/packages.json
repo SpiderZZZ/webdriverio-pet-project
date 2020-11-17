@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can register",
+      "uid" : "942cf32a36c68e19",
+      "parentUid" : "fde823024e17e73c87423a9a943c31c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605605660359,
+        "stop" : 1605605664109,
+        "duration" : 3750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    } ],
+    "uid" : "fde823024e17e73c87423a9a943c31c2"
+  } ],
+  "name" : "packages"
+}

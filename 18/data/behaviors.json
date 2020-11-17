@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "can register",
+    "uid" : "942cf32a36c68e19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605605660359,
+      "stop" : 1605605664109,
+      "duration" : 3750
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.75" ]
+  } ],
+  "name" : "behaviors"
+}
