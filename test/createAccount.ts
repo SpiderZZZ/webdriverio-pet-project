@@ -15,8 +15,6 @@ describe('User',() => //describe - аналог сьюта
         registrationForm.$('input[name="confirmed_password"]').setValue('testtest');
         registrationForm.$('button[name="create_account"]').click();
     
-
-        browser.pause(5000)
         const expectedText = 'Your customer account has been created.'
         const alert = $('#notices .alert-success')
         expect(alert).toHaveTextContaining(expectedText)
