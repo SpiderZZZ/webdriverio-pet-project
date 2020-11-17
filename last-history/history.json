@@ -1,0 +1,23 @@
+{
+  "1d0c57503072fd6a1de1d43232c5d5d7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43eed5ffddaeb56a",
+      "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/15//#testresult/43eed5ffddaeb56a",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#notices .alert-success`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1605604095100,
+        "stop" : 1605604107949,
+        "duration" : 12849
+      }
+    } ]
+  }
+}

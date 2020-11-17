@@ -1,0 +1,11 @@
+[ {
+  "uid" : "43eed5ffddaeb56a",
+  "name" : "can register",
+  "time" : {
+    "start" : 1605604095100,
+    "stop" : 1605604107949,
+    "duration" : 12849
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

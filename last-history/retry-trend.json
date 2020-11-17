@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 15,
+  "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/15/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]
