@@ -18,6 +18,7 @@ export class CreateAccountPO {
         this.registrationForm.$('input[name="lastname"]').setValue(options.lastnama);
         const countrySelect = this.registrationForm.$('select[name="country_code"]');
         countrySelect.selectByVisibleText(options.countryname);
+        this.registrationForm.$('input[name="email"]').click;
         this.registrationForm.$('input[name="email"]').setValue(options.email);
         this.registrationForm.$('input[name="password"]').setValue(options.password);
         this.registrationForm.$('input[name="confirmed_password"]').setValue(options.confirmPassword);
