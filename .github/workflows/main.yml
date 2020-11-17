@@ -20,7 +20,7 @@ jobs:
     - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
-      run: npm cit  
+       run: npm cit  
      - name: Create Report
        if: always()
        # trying to save history of previous runs if it is exists
