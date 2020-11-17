@@ -3,6 +3,7 @@ import { Home } from "../page/home.page";
 
 describe('User',() => //describe - аналог сьюта 
 {
+    const cryptoRandomString = require('crypto-random-string');
     it('can register', () =>
     {
         console.time("Test 'can register' took")        
@@ -12,7 +13,7 @@ describe('User',() => //describe - аналог сьюта
             firstname : 'Иван',
             lastnama : 'Иванов',
             countryname : 'Russian Federation',
-            email : `test${new Date().getTime()/1000}@mail.ru`,
+            email : `${cryptoRandomString({length: 15})}@mail.ru`,
             password : 'testtest',
             confirmPassword : 'testtest'
         })

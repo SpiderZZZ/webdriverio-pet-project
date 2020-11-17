@@ -21,6 +21,7 @@ jobs:
         SELENIUM_HUB_HOST: 'localhost'
       run: npm cit  
     - name: Create allure test report artifact
+      if: always()
       uses: actions/upload-artifact@v2
       with:
         name: allure test report
