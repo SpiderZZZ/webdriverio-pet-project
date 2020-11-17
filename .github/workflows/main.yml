@@ -1,5 +1,4 @@
-name: WDIO Tests
-
+name: WebdriveriIO Tests in pet project
 
 on: [push, pull_request]
 # on: 
@@ -12,7 +11,7 @@ on: [push, pull_request]
 jobs:
   tests:
     runs-on: ubuntu-latest
-    name: Run WDIO tests
+    name: Run Webdriver tests
     steps:
     - name: Start Selenoid Server
       uses: Xotabu4/selenoid-github-action@v1
