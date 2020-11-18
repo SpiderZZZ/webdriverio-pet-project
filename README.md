@@ -20,3 +20,9 @@ Switch to new terminal tab, and run tests:
 ```
 npm test
 ```
+
+To run repl mode use this:
+
+```
+npm run repl
+```

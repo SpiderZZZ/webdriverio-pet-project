@@ -5,6 +5,9 @@ export const config: Config = {
     runner: 'local',
     specs: [
         './test/createAccount.ts'
+        //'./async-demo/async/1_callbacks.js'
+        //'./async-demo/async/2_promises.js'
+        //'./async-demo/async/3_async_await.js'
     ],
     hostname: process.env.SELENIUM_HUB_HOST ?? 'localhost',
     path: '/wd/hub',

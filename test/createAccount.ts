@@ -1,5 +1,6 @@
 import { CreateAccount } from "../page/createAccount.page";
 import { Home } from "../page/home.page";
+import { createNewUserAndLogin } from "../utils/createUser";
 
 describe('User',() => //describe - аналог сьюта 
 {
@@ -23,5 +24,10 @@ describe('User',() => //describe - аналог сьюта
         expect(Home.successAlert).toBeDisplayed()
         expect(Home.successAlert).toHaveTextContaining(expectedText)
         console.timeEnd("Test 'can register' took")
-    })
+    });
+
+    it('register user thru HTTP', () => 
+    {
+        const user = createNewUserAndLogin()
+    });
 })
