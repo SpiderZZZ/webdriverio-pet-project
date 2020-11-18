@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b1da171223bfd059",
+  "name" : "can register",
+  "time" : {
+    "start" : 1605712987434,
+    "stop" : 1605712991476,
+    "duration" : 4042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa02a2c4c92fbcd9",
+  "name" : "register user thru HTTP",
+  "time" : {
+    "start" : 1605712991477,
+    "stop" : 1605712993895,
+    "duration" : 2418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can register",
+      "uid" : "b1da171223bfd059",
+      "parentUid" : "fde823024e17e73c87423a9a943c31c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605712987434,
+        "stop" : 1605712991476,
+        "duration" : 4042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    }, {
+      "name" : "register user thru HTTP",
+      "uid" : "fa02a2c4c92fbcd9",
+      "parentUid" : "fde823024e17e73c87423a9a943c31c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605712991477,
+        "stop" : 1605712993895,
+        "duration" : 2418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    } ],
+    "uid" : "fde823024e17e73c87423a9a943c31c2"
+  } ],
+  "name" : "packages"
+}

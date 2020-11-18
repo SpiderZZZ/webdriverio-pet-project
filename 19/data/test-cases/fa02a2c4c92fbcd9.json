@@ -1,0 +1,58 @@
+{
+  "uid" : "fa02a2c4c92fbcd9",
+  "name" : "register user thru HTTP",
+  "fullName" : "User.register user thru HTTP",
+  "historyId" : "4832e3379c6c8e10902ef0b96e0313a7",
+  "time" : {
+    "start" : 1605712991477,
+    "stop" : 1605712993895,
+    "duration" : 2418
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "register user thru HTTP"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa02a2c4c92fbcd9.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}

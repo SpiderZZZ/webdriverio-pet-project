@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can register",
+      "uid" : "b1da171223bfd059",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605712987434,
+        "stop" : 1605712991476,
+        "duration" : 4042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    }, {
+      "name" : "register user thru HTTP",
+      "uid" : "fa02a2c4c92fbcd9",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605712991477,
+        "stop" : 1605712993895,
+        "duration" : 2418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    } ],
+    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
+  } ],
+  "name" : "suites"
+}
