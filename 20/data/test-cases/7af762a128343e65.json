@@ -1,0 +1,78 @@
+{
+  "uid" : "7af762a128343e65",
+  "name" : "can register",
+  "fullName" : "User.can register",
+  "historyId" : "7ee4feee768443642a2af7124e5bf574",
+  "time" : {
+    "start" : 1605791729221,
+    "stop" : 1605791732917,
+    "duration" : 3696
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "can register"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b1da171223bfd059",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/19//#testresult/b1da171223bfd059",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605712987434,
+          "stop" : 1605712991476,
+          "duration" : 4042
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7af762a128343e65.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}

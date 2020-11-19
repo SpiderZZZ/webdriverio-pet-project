@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f07983d116e2c8bb",
+  "name" : "custom commands",
+  "time" : {
+    "start" : 1605791735091,
+    "stop" : 1605791738156,
+    "duration" : 3065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7af762a128343e65",
+  "name" : "can register",
+  "time" : {
+    "start" : 1605791729221,
+    "stop" : 1605791732917,
+    "duration" : 3696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e0f062343522d50",
+  "name" : "register user thru HTTP",
+  "time" : {
+    "start" : 1605791732918,
+    "stop" : 1605791735091,
+    "duration" : 2173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
