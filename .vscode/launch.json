@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run WebDriverIO tests",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceRoot}/node_modules/@wdio/cli/bin/wdio.js",
+            "sourceMaps": true,
+            "args" : [
+                "./entrypoint.conf.js",
+                "--spec",
+                "./test/createAccount.ts"
+            ],
+            "env": {
+                "DEBUG" : "1"
+            },
+            "port": 5858,
+            "console": "integratedTerminal"
+        }
+    ]
+}
