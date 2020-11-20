@@ -1,0 +1,117 @@
+{
+  "uid" : "65c4e51dcef128e1",
+  "name" : "custom commands",
+  "fullName" : "User.custom commands",
+  "historyId" : "e20844cdfcac45e4506e3bc0ea2633fb",
+  "time" : {
+    "start" : 1605859426913,
+    "stop" : 1605859430200,
+    "duration" : 3287
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "custom commands"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "3b135535abe6a9e5",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/24//#testresult/3b135535abe6a9e5",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`#notices .alert-success`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+        "time" : {
+          "start" : 1605858840858,
+          "stop" : 1605858853375,
+          "duration" : 12517
+        }
+      }, {
+        "uid" : "ebf4407df205f183",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/23//#testresult/ebf4407df205f183",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`#notices .alert-success`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+        "time" : {
+          "start" : 1605858061985,
+          "stop" : 1605858074372,
+          "duration" : 12387
+        }
+      }, {
+        "uid" : "2f03ae564d696e6d",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/22//#testresult/2f03ae564d696e6d",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`#notices .alert-success`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+        "time" : {
+          "start" : 1605858050785,
+          "stop" : 1605858063103,
+          "duration" : 12318
+        }
+      }, {
+        "uid" : "c1a42fa5956ae34d",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/21//#testresult/c1a42fa5956ae34d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605857654915,
+          "stop" : 1605857657580,
+          "duration" : 2665
+        }
+      }, {
+        "uid" : "f07983d116e2c8bb",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/20//#testresult/f07983d116e2c8bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605791735091,
+          "stop" : 1605791738156,
+          "duration" : 3065
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "65c4e51dcef128e1.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}
