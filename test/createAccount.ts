@@ -5,6 +5,11 @@ import allureReporter from '@wdio/allure-reporter'
 
 describe('User',() => //describe - аналог сьюта 
 {
+    beforeEach(function()
+    {
+        browser.url('/logout');
+    });
+
     const cryptoRandomString = require('crypto-random-string');
     it('can register', () =>
     {
