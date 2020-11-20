@@ -1,0 +1,78 @@
+{
+  "uid" : "c1a42fa5956ae34d",
+  "name" : "custom commands",
+  "fullName" : "User.custom commands",
+  "historyId" : "e20844cdfcac45e4506e3bc0ea2633fb",
+  "time" : {
+    "start" : 1605857654915,
+    "stop" : 1605857657580,
+    "duration" : 2665
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "custom commands"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f07983d116e2c8bb",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/20//#testresult/f07983d116e2c8bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605791735091,
+          "stop" : 1605791738156,
+          "duration" : 3065
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1a42fa5956ae34d.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}

@@ -1,0 +1,206 @@
+{
+  "uid" : "14827642bfdcaf4b",
+  "name" : "can register",
+  "fullName" : "User.can register",
+  "historyId" : "7ee4feee768443642a2af7124e5bf574",
+  "time" : {
+    "start" : 1605857638597,
+    "stop" : 1605857652514,
+    "duration" : 13917
+  },
+  "description" : "Тест на регистрацию пользователя",
+  "descriptionHtml" : "<p>Тест на регистрацию пользователя</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.",
+  "statusTrace" : "Error: Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.\n                    at Context.<anonymous> (/home/runner/work/webdriverio-pet-project/webdriverio-pet-project/test/createAccount.ts:38:39)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.",
+    "statusTrace" : "Error: Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.\n                    at Context.<anonymous> (/home/runner/work/webdriverio-pet-project/webdriverio-pet-project/test/createAccount.ts:38:39)",
+    "steps" : [ {
+      "name" : "Открыть страницу регистрации",
+      "time" : {
+        "start" : 1605857638601,
+        "stop" : 1605857638601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить страницу регистрации данным",
+      "time" : {
+        "start" : 1605857640087,
+        "stop" : 1605857640087,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку зарегистрироваться",
+      "time" : {
+        "start" : 1605857641365,
+        "stop" : 1605857641365,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем, что регистрация прошла успешно",
+      "time" : {
+        "start" : 1605857642196,
+        "stop" : 1605857652513,
+        "duration" : 10317
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.\n                    at Context.<anonymous> (/home/runner/work/webdriverio-pet-project/webdriverio-pet-project/test/createAccount.ts:38:39)",
+      "steps" : [ {
+        "name" : "Проверяем, что регистрация прошла успешно",
+        "time" : {
+          "start" : 1605857642196,
+          "stop" : 1605857642234,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Проверям соответствие надписи значению: Ваше регистрация успешно выполнена",
+        "time" : {
+          "start" : 1605857642234,
+          "stop" : 1605857652252,
+          "duration" : 10018
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.\n                    at Context.<anonymous> (/home/runner/work/webdriverio-pet-project/webdriverio-pet-project/test/createAccount.ts:38:39)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "841fe8148774ffbb",
+        "name" : "Screenshot",
+        "source" : "841fe8148774ffbb.png",
+        "type" : "image/png",
+        "size" : 136678
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Пользователь может зарегистироваться"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "can register"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7af762a128343e65",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/20//#testresult/7af762a128343e65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605791729221,
+          "stop" : 1605791732917,
+          "duration" : 3696
+        }
+      }, {
+        "uid" : "b1da171223bfd059",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/19//#testresult/b1da171223bfd059",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605712987434,
+          "stop" : 1605712991476,
+          "duration" : 4042
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "14827642bfdcaf4b.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}

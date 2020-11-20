@@ -1,0 +1,48 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Пользователь может зарегистироваться",
+    "children" : [ {
+      "name" : "can register",
+      "uid" : "14827642bfdcaf4b",
+      "parentUid" : "2e46425c63bdc745e014b3b459fe0d73",
+      "status" : "failed",
+      "time" : {
+        "start" : 1605857638597,
+        "stop" : 1605857652514,
+        "duration" : 13917
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    } ],
+    "uid" : "2e46425c63bdc745e014b3b459fe0d73"
+  }, {
+    "name" : "register user thru HTTP",
+    "uid" : "1c2035b19b6067eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605857652514,
+      "stop" : 1605857654915,
+      "duration" : 2401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.66" ]
+  }, {
+    "name" : "custom commands",
+    "uid" : "c1a42fa5956ae34d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605857654915,
+      "stop" : 1605857657580,
+      "duration" : 2665
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.66" ]
+  } ],
+  "name" : "behaviors"
+}

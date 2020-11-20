@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.",
+      "children" : [ {
+        "name" : "can register",
+        "uid" : "14827642bfdcaf4b",
+        "parentUid" : "9c52475f3da97815f8d2213b1dfe3bd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605857638597,
+          "stop" : 1605857652514,
+          "duration" : 13917
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ "chrome-87.0.4280.66" ]
+      } ],
+      "uid" : "9c52475f3da97815f8d2213b1dfe3bd3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can register",
+      "uid" : "14827642bfdcaf4b",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1605857638597,
+        "stop" : 1605857652514,
+        "duration" : 13917
+      },
+      "flaky" : false,
+      "newFailed" : true,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    }, {
+      "name" : "register user thru HTTP",
+      "uid" : "1c2035b19b6067eb",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605857652514,
+        "stop" : 1605857654915,
+        "duration" : 2401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    }, {
+      "name" : "custom commands",
+      "uid" : "c1a42fa5956ae34d",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605857654915,
+        "stop" : 1605857657580,
+        "duration" : 2665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.66" ]
+    } ],
+    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
+  } ],
+  "name" : "suites"
+}
