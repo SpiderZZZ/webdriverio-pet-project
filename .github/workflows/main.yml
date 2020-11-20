@@ -19,9 +19,9 @@ jobs:
     - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
-      run: npm cit  
+      run: npm cit ## npm install && npm test together
     - name: Create allure test results artifact
-      if: always()
+      if: always() ## start even previous steps is failure
       uses: actions/upload-artifact@v2
       with:
         name: allure test report

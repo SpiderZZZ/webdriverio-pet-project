@@ -2,6 +2,7 @@ import { Config } from "@wdio/sync";
 
 // https://webdriver.io/docs/configurationfile.html
 const configObj: Config = {
+    //automationProtocol: "devtools",
     runner: 'local',
     specs: [
         './test/createAccount.ts'
@@ -35,11 +36,21 @@ const configObj: Config = {
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
     framework: 'mocha',
-    reporters: ['spec', ['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false,
-    }]],
+    reporters: [
+    ["spec",
+        {
+          symbols: { passed: '[PASS]', failed: '[FAIL]' },
+          // skipped set to default '-'
+        }
+    ]
+    , 
+     ['allure', {
+         outputDir: 'allure-results',
+         disableMochaHooks : false,
+         disableWebdriverStepsReporting: true,
+         disableWebdriverScreenshotsReporting: false,
+     }]
+],
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000
