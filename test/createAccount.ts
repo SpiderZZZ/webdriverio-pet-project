@@ -26,8 +26,8 @@ describe('User',() => //describe - аналог сьюта
         allureReporter.addStep("Нажать на кнопку зарегистрироваться")
         CreateAccount.confirmRegistration()
     
-        //const expectedText = 'Your customer account has been created.'
-        const expectedText = 'Ваше регистрация успешно выполнена'
+        const expectedText = 'Your customer account has been created.'
+        //const expectedText = 'Ваше регистрация успешно выполнена'
         allureReporter.startStep("Проверяем, что регистрация прошла успешно")
         try
         {
