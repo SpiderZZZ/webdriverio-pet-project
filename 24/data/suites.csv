@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Nov 20 07:53:55 GMT 2020","Fri Nov 20 07:53:58 GMT 2020","3352","","User","","User","can register","can register","Тест на регистрацию пользователя"
+"passed","Fri Nov 20 07:53:58 GMT 2020","Fri Nov 20 07:54:00 GMT 2020","2042","","User","","User","register user thru HTTP","register user thru HTTP",""
+"failed","Fri Nov 20 07:54:00 GMT 2020","Fri Nov 20 07:54:13 GMT 2020","12517","","User","","User","custom commands","custom commands",""
