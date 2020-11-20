@@ -1,0 +1,209 @@
+{
+  "uid" : "d96c3dcb4cde1dea",
+  "name" : "can register",
+  "fullName" : "User.can register",
+  "historyId" : "7ee4feee768443642a2af7124e5bf574",
+  "time" : {
+    "start" : 1605858056301,
+    "stop" : 1605858059904,
+    "duration" : 3603
+  },
+  "description" : "Тест на регистрацию пользователя",
+  "descriptionHtml" : "<p>Тест на регистрацию пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу регистрации",
+      "time" : {
+        "start" : 1605858056304,
+        "stop" : 1605858056304,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить страницу регистрации данным",
+      "time" : {
+        "start" : 1605858057800,
+        "stop" : 1605858057800,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку зарегистрироваться",
+      "time" : {
+        "start" : 1605858059009,
+        "stop" : 1605858059009,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем, что регистрация прошла успешно",
+      "time" : {
+        "start" : 1605858059848,
+        "stop" : 0,
+        "duration" : -1605858059848
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Проверяем, что регистрация прошла успешно",
+        "time" : {
+          "start" : 1605858059848,
+          "stop" : 1605858059878,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Проверям соответствие надписи значению: Your customer account has been created.",
+        "time" : {
+          "start" : 1605858059878,
+          "stop" : 1605858059903,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Пользователь может зарегистироваться"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "can register"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "34c0734e3cbe472f",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/22//#testresult/34c0734e3cbe472f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605858045143,
+          "stop" : 1605858048678,
+          "duration" : 3535
+        }
+      }, {
+        "uid" : "14827642bfdcaf4b",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/21//#testresult/14827642bfdcaf4b",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`#notices .alert-success`) to have text containing\n                \n                - Expected  - 1\n                + Received  + 2\n                \n                - Ваше регистрация успешно выполнена\n                + ×\n                + Your customer account has been created.",
+        "time" : {
+          "start" : 1605857638597,
+          "stop" : 1605857652514,
+          "duration" : 13917
+        }
+      }, {
+        "uid" : "7af762a128343e65",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/20//#testresult/7af762a128343e65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605791729221,
+          "stop" : 1605791732917,
+          "duration" : 3696
+        }
+      }, {
+        "uid" : "b1da171223bfd059",
+        "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/19//#testresult/b1da171223bfd059",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605712987434,
+          "stop" : 1605712991476,
+          "duration" : 4042
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d96c3dcb4cde1dea.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}

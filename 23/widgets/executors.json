@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://SpiderZZZ.github.io/webdriverio-pet-project",
+  "buildOrder" : 23,
+  "buildName" : "GitHub Actions Run #373911825",
+  "buildUrl" : "https://github.com/SpiderZZZ/webdriverio-pet-project/actions/runs/373911825",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://SpiderZZZ.github.io/webdriverio-pet-project/23/"
+} ]
