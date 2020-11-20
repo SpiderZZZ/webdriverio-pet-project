@@ -1,4 +1,4 @@
-name: WebdriveriIO Tests in pet project
+name: WebdriverIO Tests in pet project
 
 on: [push, pull_request]
 # on: 
