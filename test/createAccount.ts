@@ -71,7 +71,7 @@ describe('User',() => //describe - аналог сьюта
             firstname : 'Иван',
             lastnama : 'Иванов',
             countryname : 'Russian Federation',
-            email : `${cryptoRandomString({length: 15})}@mail.ru`,
+            email : `${cryptoRandomString({length: 5})}@mail.ru`,
             password : 'testtest',
             confirmPassword : 'testtest'
         })
